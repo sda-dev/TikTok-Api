@@ -946,10 +946,8 @@ class TikTokApi:
             "https://www.tiktok.com/music/-{}".format(id),
             headers={
                 "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
-                "authority": "www.tiktok.com",
                 "Accept-Encoding": "gzip, deflate",
                 "Connection": "keep-alive",
-                "Host": "www.tiktok.com",
                 "User-Agent": self.userAgent,
             },
             proxies=self.__format_proxy(kwargs.get("proxy", None)),
@@ -1197,11 +1195,9 @@ class TikTokApi:
             url,
             headers={
                 "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
-                "authority": "www.tiktok.com",
                 "path": url.split("tiktok.com")[1],
                 "Accept-Encoding": "gzip, deflate",
                 "Connection": "keep-alive",
-                "Host": "www.tiktok.com",
                 "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36",
             },
             proxies=self.__format_proxy(kwargs.get("proxy", None)),
@@ -1292,11 +1288,9 @@ class TikTokApi:
             "https://tiktok.com/@{}?lang=en".format(quote(username)),
             headers={
                 "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
-                "authority": "www.tiktok.com",
                 "path": "/@{}".format(quote(username)),
                 "Accept-Encoding": "gzip, deflate",
                 "Connection": "keep-alive",
-                "Host": "www.tiktok.com",
                 "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36",
             },
             proxies=self.__format_proxy(kwargs.get("proxy", None)),
@@ -1621,10 +1615,8 @@ class TikTokApi:
             "https://www.tiktok.com/music/-{}".format(id),
             headers={
                 "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
-                "authority": "www.tiktok.com",
                 "Accept-Encoding": "gzip, deflate",
                 "Connection": "keep-alive",
-                "Host": "www.tiktok.com",
                 "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36",
             },
             proxies=self.__format_proxy(kwargs.get("proxy", None)),
@@ -1650,11 +1642,9 @@ class TikTokApi:
             "https://tiktok.com/@{}?lang=en".format(quote(username)),
             headers={
                 "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
-                "authority": "www.tiktok.com",
                 "path": "/@{}".format(quote(username)),
                 "Accept-Encoding": "gzip, deflate",
                 "Connection": "keep-alive",
-                "Host": "www.tiktok.com",
                 "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36",
             },
             proxies=self.__format_proxy(
