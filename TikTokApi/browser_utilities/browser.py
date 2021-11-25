@@ -131,6 +131,7 @@ class browser(BrowserInterface):
         iphone["bypass_csp"] = True
 
         context = self.browser.new_context(**iphone)
+        context.set_default_timeout(120000)
         if set_useragent:
             self.userAgent = iphone["user_agent"]
 
