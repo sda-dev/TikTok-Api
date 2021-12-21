@@ -1677,6 +1677,8 @@ class TikTokApi:
         if proxy is None and self.proxy is not None:
             proxy = self.proxy
         if proxy is not None:
+            if type(proxy) is dict:
+                return proxy
             return {"http": proxy}
         else:
             return None
